@@ -14,6 +14,9 @@ export default {
       carbon: "#161A1D",
       black: "#0B090A",
     },
+    fontFamily: {
+      Vazir: ["Vazir"],
+    },
   },
   plugins: [],
 };
