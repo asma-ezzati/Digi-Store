@@ -8,7 +8,13 @@ const Home = () => {
         style={{ backgroundImage: `url(${banner1})` }}
       >
         {/* <img className="col-span-2" src={banner1}></img> */}
-        <div></div>
+        <nav className="flex p-2 mx-auto ">
+          <a className="mx-2">خانه</a>
+          <a className="mx-2">درباره ما</a>
+          <a className="mx-2">فروشگاه</a>
+          <a className="mx-2">تماس با ما</a>
+          <a className="mx-2">ثبت نام</a>
+        </nav>
       </div>
     </>
   );
