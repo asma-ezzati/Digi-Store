@@ -3,7 +3,7 @@ import Aboutuspic from "../assets/about.png";
 const Aboutus = () => {
   return (
     <>
-      <div className=" bg-whiteSmoke pt-24 ">
+      <div className=" bg-whiteSmoke pt-24 pb-16 ">
         <div className="w-[80%]  mx-auto rounded-lg bg-whiteSmoke shadow-2xl">
           <div className="w-[98%] grid lg:grid-cols-2  ">
             <div>
@@ -23,7 +23,7 @@ const Aboutus = () => {
                 هدفون یا هر ابزار دیجیتال دیگری باید ساده، سریع و همراه با
                 اطلاعات واقعی باشد؛ نه گیج‌کننده و وقت‌گیر.
               </p>
-              <p className="font-Vazir m-6 text-carbon text-justify">
+              <p className="font-Vazir m-6 text-carbon text-justify pb-6">
                 🎯 ماموریت ما در دیجی استوره تلاش می‌کنیم: محصولات اورجینال و
                 دارای گارانتی معتبر ارائه کنیم قیمت‌ها را شفاف و رقابتی نگه
                 داریم اطلاعات محصولات را بدون اغراق و کاملاً واقعی منتشر کنیم
