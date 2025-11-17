@@ -3,11 +3,14 @@ import Aboutuspic from "../assets/about.png";
 const Aboutus = () => {
   return (
     <>
-      <div className="h-screen bg-whiteSmoke pt-24 ">
+      <div className=" bg-whiteSmoke pt-24 ">
         <div className="w-[80%]  mx-auto rounded-lg bg-whiteSmoke shadow-2xl">
-          <div className="w-[98%] grid grid-cols-2 ">
+          <div className="w-[98%] grid lg:grid-cols-2  ">
             <div>
-              <img src={Aboutuspic} className="m-2 rounded-lg "></img>
+              <img
+                src={Aboutuspic}
+                className="md:m-2 sm:p-2 md:rounded-lg sm:block md:bolck "
+              ></img>
             </div>
             <div className="space-y-5">
               <h1 className="font-Vazir text-2xl m-5 mt-6 text-red1 text-center ">
