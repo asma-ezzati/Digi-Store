@@ -7,6 +7,9 @@ const Store = () => {
   return (
     <>
       <div className="pt-24 pb-16 bg-whiteSmoke">
+        <h1 className="font-Vazir text-2xl m-5 mb-10 text-red1 text-center ">
+          فروشگاه ما
+        </h1>
         <div className="grid lg:grid-cols-4  w-[95%] mx-auto ">
           <div className=" bg-white m-3 rounded-xl shadow-xl ">
             <img
